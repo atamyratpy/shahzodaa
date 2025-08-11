@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahzoda ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP Kütüphanesi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Anime.js Kütüphanesi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <!-- Arka Plan Müzik -->
+    <audio id="background-music" loop autoplay>
+        <source src="romantic-music.mp3" type="audio/mpeg">
+        <!-- Müzik dosyanızı "romantic-music.mp3" olarak kaydedin -->
+    </audio>
+
+    <!-- Ana Container -->
+    <div class="container">
+        <!-- Kalp Parçacıkları -->
+        <div class="hearts-container"></div>
+        
+        <!-- Kelebek Container -->
+        <div class="butterflies-container"></div>
+        
+        <!-- Çiçek Yaprakları -->
+        <div class="petals-container"></div>
+        
+        <!-- Yıldızlar -->
+        <div class="stars-container"></div>
+        
+        <!-- Ana Başlık -->
+        <div class="main-title">
+            <h1 id="shahzoda-text">
+                <span class="letter">S</span>
+                <span class="letter">h</span>
+                <span class="letter">a</span>
+                <span class="letter">h</span>
+                <span class="letter">z</span>
+                <span class="letter">o</span>
+                <span class="letter">d</span>
+                <span class="letter">a</span>
+            </h1>
+            <div class="subtitle">💖 I Love You 💖</div>
+        </div>
+        
+        <!-- Işık Efektleri -->
+        <div class="light-rays"></div>
+        
+        <!-- Romantik Mesajlar -->
+        <div class="floating-messages">
+            <div class="message">I Love You ❤️</div>
+            <div class="message">You're My Everything 💕</div>
+            <div class="message">Forever Yours 🌹</div>
+            <div class="message">My Heart Beats For You 💓</div>
+        </div>
+        
+        <!-- Canvas Efektleri -->
+        <canvas id="romantic-canvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
